@@ -1,17 +1,18 @@
 /* GENERAL STYLING FOR MY PORTFOLIO */
 
-@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@100.1,300..700&family=Kodchasan&display=swap');
 
 * {
   margin: 0;
   padding: 0;
+  background-color: rgb(217, 211, 184);
 }
 
 body {
-  font-family: "Genos", sans-serif;
+  font-family: "Fredoka", sans-serif;
   font-optical-sizing: auto;
+
   font-style: normal;
-  font-size: 22px;
 }
 
 html {
@@ -62,7 +63,8 @@ a:hover {
 }
 
 .logo {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
+  margin-top: 10vh;
 }
 
 .logo:hover {
@@ -301,7 +303,6 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 2;
-  background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
@@ -368,7 +369,6 @@ article, .icon {
 
 .color-container {
   border-color: rgb(163, 163, 163);
-  background: rgb(250, 250, 250);
 }
 
 .project-img {
