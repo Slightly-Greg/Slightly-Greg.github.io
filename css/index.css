@@ -412,7 +412,7 @@ article,
   width: 100%;
   max-width: none;
   padding: 2rem;
-  background: rgb(217, 211, 184);
+  background: transparent;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
@@ -425,6 +425,7 @@ article,
 
 #projects .article-container {
   width: 100%;
+  background: transparent;
 }
 
 #projects .project-img {
@@ -452,8 +453,8 @@ article,
 }
 
 #projects .color-container {
+  background: transparent;
   border-color: rgb(163, 163, 163);
-  background: rgb(217, 211, 184);
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
 }
