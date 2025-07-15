@@ -421,7 +421,7 @@ article {
   justify-content: center;
   gap: 0.5rem;
   margin: 1rem;
-  /* background: rgb(217, 211, 184) !important; */
+  background: rgb(217, 211, 184) !important;
 }
 
 .contact-info-container p {
