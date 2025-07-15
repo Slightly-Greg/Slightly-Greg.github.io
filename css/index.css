@@ -410,7 +410,7 @@ article {
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
-  background: transparent;
+  background: rgb(217, 211, 184) !important;
   margin: 2rem auto;
   padding: 0.5rem;
 }
@@ -421,6 +421,7 @@ article {
   justify-content: center;
   gap: 0.5rem;
   margin: 1rem;
+  /* background: rgb(217, 211, 184) !important; */
 }
 
 .contact-info-container p {
