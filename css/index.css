@@ -344,6 +344,21 @@ section {
   font-style: italic;
 }
 
+.presentation-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.presentation-img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
 .article-container {
   display: flex;
   text-align: initial;
