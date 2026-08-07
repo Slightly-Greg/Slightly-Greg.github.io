@@ -297,6 +297,53 @@ section {
   flex: unset;
 }
 
+/* INTERNSHIP SECTION */
+#internship {
+  position: relative;
+}
+
+.internship-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
+  width: 100%;
+  max-width: 800px;
+}
+
+.internship-card {
+  width: 100%;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.internship-logo {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 1.5rem;
+}
+
+.internship-role {
+  color: rgb(85, 85, 85);
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.internship-text {
+  width: 100%;
+  min-height: 4rem;
+}
+
+.internship-text p:empty::before {
+  content: "Add details about your KPN internship here.";
+  color: rgb(163, 163, 163);
+  font-style: italic;
+}
+
 .article-container {
   display: flex;
   text-align: initial;
