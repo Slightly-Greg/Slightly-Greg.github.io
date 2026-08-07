@@ -284,6 +284,19 @@ section {
   flex-direction: column;
 }
 
+#experience .about-containers {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 2rem auto;
+}
+
+#experience .details-container {
+  flex: unset;
+}
+
 .article-container {
   display: flex;
   text-align: initial;
