@@ -344,17 +344,17 @@ section {
   font-style: italic;
 }
 
-.presentation-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 1.5rem;
+#internship .presentation-container {
+  width: 240px;
+  max-width: 90%;
+  margin: 1.5rem auto 0;
 }
 
-.presentation-img {
+#internship .presentation-img {
+  display: block;
   width: 100%;
-  max-width: 320px;
   height: auto;
+  max-height: 180px;
   object-fit: cover;
   border-radius: 1rem;
 }
